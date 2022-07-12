@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Tasko.Api.Facades\Tasko.Api.Facades.csproj" />
+    <ProjectReference Include="..\Tasko.Api.Models\Tasko.Api.Models.csproj" />
+  </ItemGroup>
+
 </Project>
