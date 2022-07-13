@@ -11,9 +11,9 @@ namespace Tasko.Api.Domain.Controllers
     {
       if (v1 == 2)
       {
-        var a = "abc";
-        var t = int.Parse(a) + v1 + v2;
-        return Ok(t);
+        var a = "abs";
+        var total = int.Parse(a) + 10;
+        return Ok(total);
       }
 
       return Ok(10);
