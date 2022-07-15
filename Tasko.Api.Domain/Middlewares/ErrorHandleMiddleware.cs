@@ -3,7 +3,7 @@ using Tasko.Api.Models.Responses;
 
 namespace Tasko.Api.Domain.Middlewares
 {
-  public class ErrorHandleMiddleware
+  public class ErrorHandleMiddleware : IHandleMiddleware
   {
     private const bool FAILED_REQUEST_RESULT = false;
 
