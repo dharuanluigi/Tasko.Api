@@ -2,6 +2,11 @@ namespace Tasko.Api.Domain.Extensions
 {
   public static class WebApplicationBuilderExtension
   {
+    public static WebApplicationBuilder LoadConfigurationData(this WebApplicationBuilder builder)
+    {
+      return builder;
+    }
+
     /// <summary>
     /// This method load some configurations into WebApplicationBuilder. Like: MVC and others
     /// </summary>
