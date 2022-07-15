@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasko.Api.Domain", "Tasko.Api.Domain\Tasko.Api.Domain.csproj", "{44B15D02-0EB9-4975-ADAF-FAF7F9280E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasko.Api.Facades", "Tasko.Api.Facades\Tasko.Api.Facades.csproj", "{B1DDCF5D-B219-419A-A27B-B8AC4976A66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasko.Api.Models", "Tasko.Api.Models\Tasko.Api.Models.csproj", "{E71CC784-FF31-4ECC-9EFF-BC9F2D66B15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasko.Api.Repository", "Tasko.Api.Repository\Tasko.Api.Repository.csproj", "{41DC6771-3B08-4309-9FA8-8C7C3CBBC872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasko.Api.Services", "Tasko.Api.Services\Tasko.Api.Services.csproj", "{E17A2AC9-D3A1-4564-BC52-1411BD3E0B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasko.Api.Tests", "Tasko.Api.Tests\Tasko.Api.Tests.csproj", "{5BA1BD14-D7DC-4188-9BE9-9297698216A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44B15D02-0EB9-4975-ADAF-FAF7F9280E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B15D02-0EB9-4975-ADAF-FAF7F9280E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B15D02-0EB9-4975-ADAF-FAF7F9280E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B15D02-0EB9-4975-ADAF-FAF7F9280E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DDCF5D-B219-419A-A27B-B8AC4976A66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DDCF5D-B219-419A-A27B-B8AC4976A66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DDCF5D-B219-419A-A27B-B8AC4976A66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DDCF5D-B219-419A-A27B-B8AC4976A66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E71CC784-FF31-4ECC-9EFF-BC9F2D66B15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71CC784-FF31-4ECC-9EFF-BC9F2D66B15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71CC784-FF31-4ECC-9EFF-BC9F2D66B15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71CC784-FF31-4ECC-9EFF-BC9F2D66B15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DC6771-3B08-4309-9FA8-8C7C3CBBC872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DC6771-3B08-4309-9FA8-8C7C3CBBC872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DC6771-3B08-4309-9FA8-8C7C3CBBC872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DC6771-3B08-4309-9FA8-8C7C3CBBC872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17A2AC9-D3A1-4564-BC52-1411BD3E0B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17A2AC9-D3A1-4564-BC52-1411BD3E0B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17A2AC9-D3A1-4564-BC52-1411BD3E0B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17A2AC9-D3A1-4564-BC52-1411BD3E0B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA1BD14-D7DC-4188-9BE9-9297698216A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA1BD14-D7DC-4188-9BE9-9297698216A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA1BD14-D7DC-4188-9BE9-9297698216A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA1BD14-D7DC-4188-9BE9-9297698216A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
