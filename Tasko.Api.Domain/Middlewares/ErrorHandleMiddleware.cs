@@ -1,4 +1,5 @@
 using System.Net.Mime;
+using Tasko.Api.Domain.Middlewares.Interfaces;
 using Tasko.Api.Models.Responses;
 
 namespace Tasko.Api.Domain.Middlewares

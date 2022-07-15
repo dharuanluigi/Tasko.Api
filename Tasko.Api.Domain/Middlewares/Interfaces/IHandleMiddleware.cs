@@ -1,4 +1,4 @@
-namespace Tasko.Api.Domain.Middlewares
+namespace Tasko.Api.Domain.Middlewares.Interfaces
 {
   /// <summary>
   /// Middlewares interface
