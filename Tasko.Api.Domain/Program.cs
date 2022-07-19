@@ -4,7 +4,9 @@ using Tasko.Api.Domain.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.LoadConfigurationData();
 builder.ConfigureMvc();
+builder.AddDependencyInjection();
 builder.ConfigureResources();
 
 var app = builder.Build();
