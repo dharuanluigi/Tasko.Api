@@ -1,9 +1,11 @@
+using System.Diagnostics.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Tasko.Api.Repository.Entities;
 
 namespace Tasko.Api.Repository.Mappings
 {
+  [ExcludeFromCodeCoverage]
   internal class UserMap : IEntityTypeConfiguration<User>
   {
     private const string TABLE_NAME = "User";

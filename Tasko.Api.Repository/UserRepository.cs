@@ -3,7 +3,7 @@ using Tasko.Api.Repository.Interfaces;
 
 namespace Tasko.Api.Repository
 {
-  internal class UserRepository : IRepository<User>
+  public class UserRepository : IRepository<User>
   {
     private readonly ApplicationDataContext _context;
 
@@ -15,6 +15,7 @@ namespace Tasko.Api.Repository
     public async Task CreateAsync(User user)
     {
       await _context.Users.AddAsync(user);
+      await _context.SaveChangesAsync();
     }
 
     public Task Delete(User user)
