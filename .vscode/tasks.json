@@ -36,6 +36,23 @@
         "${workspaceFolder}/Tasko.Api.Domain/Tasko.Api.Domain.csproj"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "test",
+      "command": "dotnet",
+      "type": "process",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "args": [
+        "test",
+        "${workspaceFolder}/Tasko.Api.Tests/Tasko.Api.Tests.csproj",
+        "/p:CollectCoverage=true",
+        "/p:CoverletOutputFormat=\"opencover,lcov\"",
+        "/p:CoverletOutput=./lcov"
+      ],
+      "problemMatcher": "$msCompile"
     }
   ]
 }

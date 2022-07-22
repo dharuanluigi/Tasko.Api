@@ -1,25 +1,24 @@
+using Tasko.Api.Domain.Extensions;
+using Tasko.Api.Domain.Middlewares;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.LoadConfigurationData();
+builder.ConfigureMvc();
+builder.AddDependencyInjection();
+builder.ConfigureResources();
 
 var app = builder.Build();
 
+app.UseMiddleware<ErrorHandleMiddleware>();
+
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-  app.UseSwagger();
-  app.UseSwaggerUI();
-}
 
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

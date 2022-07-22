@@ -455,3 +455,10 @@ $RECYCLE.BIN/
 
 # ignore development appsettings
 appsettings.Development.json
+
+# ignore sonar config
+.sonar.txt
+
+# ignore report code analytics
+lcov.info
+lcov.opencover.xml
